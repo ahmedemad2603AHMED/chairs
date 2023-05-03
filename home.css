@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-item{
+    margin:0 20px 0 0;
+    
+}
+.nav-item a{
+    color: brown;
+    
+}
+.nav-item:hover{
+    border: 1px solid black;
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+}
+.img1{
+    width: 100%;
+   
+}
+.special{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.special hr{
+    width:10%;
+    display: inline-block;
+    color: black;
+}
+.special:hover hr{
+    width: 20%;
+}
+.img4{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    
+}
+.img4 img{
+    width: 100%;
+}
+.img4 div{
+    margin: 20px;
+ 
+}
+.kon{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.d1{
+    background-color: rgb(236, 234, 236);
+    margin-right: 20px;
+}
+.d2 img,.d3 img{
+width: 100%;
+}
+.d2,.d3{
+    margin-right: 20px;
+}
+.d2{
+    position: relative;
+}
+.d2 p{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.d2 h3{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+
+.d3{
+    position: relative;
+}
+.d3 p{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.d3 h3{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+.d2:hover{
+    transform: scale(1.02);
+}
+.d3:hover{
+    transform: scale(1.02);
+}
+.mot{
+    text-align: center;
+    font-size: 30px;
+}
+.motb{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.motb img{
+    width: 100%;
+
+}
+.motb div{
+    margin: 15px;
+}
+.motb1{
+    position: relative;
+}
+.proimgx1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+}
+
+.motb2{
+    position: relative;
+}
+.proimgx2{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+}
+
+.motb3{
+    position: relative;
+}
+.proimgx3{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+}
+
+.motb4{
+    position: relative;
+}
+.proimgx4{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+}
+
+.motb1:hover .proimgx1{
+    transform: scale(1);
+    transition:transform 0.5s ;
+}
+.motb2:hover .proimgx2{
+    transform: scale(1);
+    transition:transform 0.5s ;
+}
+.motb3:hover .proimgx3{
+    transform: scale(1);
+    transition:transform 0.5s ;
+}
+.motb4:hover .proimgx4{
+    transform: scale(1);
+    transition:transform 0.5s ;
+}
+.last{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.last div{
+  
+    margin: 20px;
+
+}
+.lastp{
+    padding: 20px;
+    background-color: rgb(217, 212, 216);
+   
+}
+.footer{
+ background-color: black;
+ color: white;
+ display: grid;
+ grid-template-columns: auto auto auto; 
+ text-align: center;
+}
+.footer img{
+    width: 40%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.footer li{
+    margin-bottom: 45px;
+    list-style: none;
+}
+.hid1{
+    position: absolute;
+    top: 70px;
+    left: 39px;
+    z-index: 1;
+    border: solid 1   rgb(138, 83, 83);
+    background-color: rgb(255, 255, 255);
+    transform: scale(0);
+
+}
+.hid{
+    display: table-cell;
+    list-style: none;
+    padding: 25px 50px;
+    
+
+}
+.furniture:hover .hid1{
+    transform: scale(1);
+
+}
+
+
+
+
